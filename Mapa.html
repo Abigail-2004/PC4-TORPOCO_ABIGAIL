@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ec7afbcaaa3bd0b4cff448a4bfc9068 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ec7afbcaaa3bd0b4cff448a4bfc9068" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ec7afbcaaa3bd0b4cff448a4bfc9068 = L.map(
+                "map_8ec7afbcaaa3bd0b4cff448a4bfc9068",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0a83f684297fa86088e79f363328761a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0a83f684297fa86088e79f363328761a.addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var marker_6667e710adadc2a214e99595bc0db265 = L.marker(
+                [39.433733373884145, -75.68887432883564],
+                {
+}
+            ).addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var icon_0a3f89a15a29a5090d4e9ff63a002238 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_242e5c834e8bba4e8c4b2ba4e17bff05 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08f5e2e14303c7017890b9f1c63ed2b9 = $(`<div id="html_08f5e2e14303c7017890b9f1c63ed2b9" style="width: 100.0%; height: 100.0%;"><b>Dead Poets Society</b> - Peter Weir<br> - 1989 - 2h8min</div>`)[0];
+                popup_242e5c834e8bba4e8c4b2ba4e17bff05.setContent(html_08f5e2e14303c7017890b9f1c63ed2b9);
+            
+        
+
+        marker_6667e710adadc2a214e99595bc0db265.bindPopup(popup_242e5c834e8bba4e8c4b2ba4e17bff05)
+        ;
+
+        
+    
+    
+                marker_6667e710adadc2a214e99595bc0db265.setIcon(icon_0a3f89a15a29a5090d4e9ff63a002238);
+            
+    
+            var marker_f72dbbac9530a25c65881547ebcf2493 = L.marker(
+                [39.985822, 116.359534],
+                {
+}
+            ).addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var icon_5f95c1007db28bb7595ba23fbbaa7061 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ba5a3cc03fa3185e5d8998b25bc958d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1cbc3c86b32c882f6b12134f3b718def = $(`<div id="html_1cbc3c86b32c882f6b12134f3b718def" style="width: 100.0%; height: 100.0%;"><b>Kill-Bill</b> - Quentin Tarantino<br> - 2003 - 1h51min</div>`)[0];
+                popup_2ba5a3cc03fa3185e5d8998b25bc958d.setContent(html_1cbc3c86b32c882f6b12134f3b718def);
+            
+        
+
+        marker_f72dbbac9530a25c65881547ebcf2493.bindPopup(popup_2ba5a3cc03fa3185e5d8998b25bc958d)
+        ;
+
+        
+    
+    
+                marker_f72dbbac9530a25c65881547ebcf2493.setIcon(icon_5f95c1007db28bb7595ba23fbbaa7061);
+            
+    
+            var marker_d2130f1e9c68cd34ad6e7423f45068af = L.marker(
+                [51.54770091401965, -0.5341903711643611],
+                {
+}
+            ).addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var icon_e14cb2f0df58b582436d64f897822e16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_548cf83d75b789a1d5a8061065096d65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0286a869fb11a5ebb20c86228d39981d = $(`<div id="html_0286a869fb11a5ebb20c86228d39981d" style="width: 100.0%; height: 100.0%;"><b>Phantom of the opera</b> - Joel Schumacher<br> - 2004 - 2h23min</div>`)[0];
+                popup_548cf83d75b789a1d5a8061065096d65.setContent(html_0286a869fb11a5ebb20c86228d39981d);
+            
+        
+
+        marker_d2130f1e9c68cd34ad6e7423f45068af.bindPopup(popup_548cf83d75b789a1d5a8061065096d65)
+        ;
+
+        
+    
+    
+                marker_d2130f1e9c68cd34ad6e7423f45068af.setIcon(icon_e14cb2f0df58b582436d64f897822e16);
+            
+    
+            var marker_bbc22b0f332c2d898db2026005a9d37d = L.marker(
+                [-43.20853732993334, 171.72078657056718],
+                {
+}
+            ).addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var icon_59d02527695371fee49007dc45088790 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef75b2ba380d2da34896203ff89afb41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e415187b5ab54faf8f536aec30e76892 = $(`<div id="html_e415187b5ab54faf8f536aec30e76892" style="width: 100.0%; height: 100.0%;"><b>The Chronicles of Narnia</b> - Andrew Adamson<br> - 2005 - 2h23min</div>`)[0];
+                popup_ef75b2ba380d2da34896203ff89afb41.setContent(html_e415187b5ab54faf8f536aec30e76892);
+            
+        
+
+        marker_bbc22b0f332c2d898db2026005a9d37d.bindPopup(popup_ef75b2ba380d2da34896203ff89afb41)
+        ;
+
+        
+    
+    
+                marker_bbc22b0f332c2d898db2026005a9d37d.setIcon(icon_59d02527695371fee49007dc45088790);
+            
+    
+            var marker_960c76c1be8469f17008a6accef27776 = L.marker(
+                [30.321648809642202, -86.14154816931487],
+                {
+}
+            ).addTo(map_8ec7afbcaaa3bd0b4cff448a4bfc9068);
+        
+    
+            var icon_1e4d637c51a23873f8769316f5315ed7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b736e4b19b80566cb262f562165aadb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63ed9fea93e79b75b94f0adf85369b3c = $(`<div id="html_63ed9fea93e79b75b94f0adf85369b3c" style="width: 100.0%; height: 100.0%;"><b>The Truman Show</b> - Peter Weir<br> - 1998 - 1h43min</div>`)[0];
+                popup_8b736e4b19b80566cb262f562165aadb.setContent(html_63ed9fea93e79b75b94f0adf85369b3c);
+            
+        
+
+        marker_960c76c1be8469f17008a6accef27776.bindPopup(popup_8b736e4b19b80566cb262f562165aadb)
+        ;
+
+        
+    
+    
+                marker_960c76c1be8469f17008a6accef27776.setIcon(icon_1e4d637c51a23873f8769316f5315ed7);
+            
+</script>
+</html>
