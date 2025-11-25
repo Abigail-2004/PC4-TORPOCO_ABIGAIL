@@ -26,7 +26,7 @@
 # Pero se ejecuta en la terminal de tu computadora, no en Jupyter Notebook.
 # OJO: Debes antes tener instalado Streamlit en tu computadora, debes antes definir la ruta de tus archivos y 
 ##     tener un script de Python (your_script.py) que quieras ejecutar en Streamlit.
-# python -m streamlit run PC4.py
+# python -m streamlit run PC4_AbigailTorpoco.py
 #  your_script.py
 
 # Este código sirve para hacer un primer programa en Streamlit.
@@ -88,7 +88,6 @@ if pagina_seleccionada == 'Inicio':
     Estudio la especialidad de Periodismo
     Me gustaría tener un trabajo independiente y dedicarme a mis pasatiempos
     Me gusta ver series, películas, dibujar, escribir historias cortas.
-    
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -180,7 +179,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Gráficos que hice en Colab</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de barras verticales de lenguas aisladas', 'Gráfico de barras de familias lingüísticas', 'Gráfico de barras horizontales de familias lingüísticas', 'mapa cusco']
+    graficos = ['Gráfico de barras de equipos de futbol', 'Gráfico de barras de pastel de los resultados de Barcelona como local', 'Gráfico de nube de palabras de discurso', 'mapa películas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -206,11 +205,11 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Esta es una nube de palabras. Fue extraída de un discurso acerca de Dina Boluarte</div>", unsafe_allow_html=True)
         st.image("pc_nube_1.png", caption='Gráfico de nube de palabras', width=500)
         pass
-    elif grafico_seleccionado == 'mapa cusco':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+    elif grafico_seleccionado == 'mapa películas':
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este es un mapa con ubicaciones de sets de películas. Cada película tiene información importante como año, duración, director, entre otros. Las ubicaciones varían entre países y continentes.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("mapa_cusco.html", "r", encoding="utf-8") as f:
+        with open("Mapa.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
