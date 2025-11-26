@@ -83,11 +83,12 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Soy Abigail Torpoco
-    Soy de Lima, vivo en Cercado de Lima
-    Estudio la especialidad de Periodismo
-    Me gustaría tener un trabajo independiente y dedicarme a mis pasatiempos
-    Me gusta ver series, películas, dibujar, escribir historias cortas.
+    Mi nombre es Abigail Torpoco.
+    Nací en Lima y vivo en Cercado de Lima.
+    Actualmente estoy cursando la especialidad de Periodismo.
+    En el futuro me gustaría tener un trabajo independiente y dedicarme a mis pasatiempos, tal vez profesionalizarme en estos.
+    Me gusta ver series, películas, dibujar, escribir historias cortas, todo lo que este relacionado al arte o cualquiera de sus formas.
+    Entre otras cosas, me gusta el arroz chaufa con mariscos, el té de tapioca, el color morado y los juegos en los que puedes personalizar avatares.
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
