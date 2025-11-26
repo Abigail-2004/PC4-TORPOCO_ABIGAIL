@@ -1,9 +1,7 @@
-[[theme.headingFontSizes]]
-font = "https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet"
 [theme]
 primaryColor="#6C63FF"
 backgroundColor="#C9A9A6"
 secondaryBackgroundColor="#AA336A"
 textColor="#000000"
 font="sans serif"
-
+headingFont  = "https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet"
